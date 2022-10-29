@@ -5,6 +5,7 @@ $BranchToUse = 'main'
    Author      : Chris Titus @christitustech
    GitHub      : https://github.com/ChrisTitusTech
     Version 0.0.1
+   Edited by   : ThatsAlbe @thatsalbe
 #>
 
 $inputXML = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/ChrisTitusTech/winutil/$BranchToUse/MainWindow.xaml") #uncomment for Production
