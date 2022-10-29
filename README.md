@@ -21,7 +21,7 @@ $Headers = @{
 
 irm -Uri 'https://raw.githubusercontent.com/ThatsAlbe/WinDebloat/main/winutil.ps1?token=GHSAT0AAAAAAB2RQECCU3DVBB75CKP5DO3CY25RELA' -Headers $Headers | iex
 ```
-Or maybe it is just necessary to update the link file without requiring login
+Or maybe it is just necessary to update the link of the raw file without requiring login each time
 ```
 irm 'https://raw.githubusercontent.com/ThatsAlbe/WinDebloat/main/winutil.ps1?token=...' | iex
 ```
